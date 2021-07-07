@@ -1,0 +1,1050 @@
+{
+  "version": "12.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "WebThreeTierStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "WebThreeTierStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/WebThreeTierStack/dev/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devF7B884FF",
+            "trace": [
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:710:21)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/pubSubnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devpubSubnet1Subnet23287467",
+            "trace": [
+              "new Subnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:997:20)",
+              "new PublicSubnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1153:5)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:882:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:864:28)",
+              "Vpc.createSubnets (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:853:12)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:739:10)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/pubSubnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devpubSubnet1RouteTable72B9C606",
+            "trace": [
+              "new Subnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1015:19)",
+              "new PublicSubnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1153:5)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:882:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:864:28)",
+              "Vpc.createSubnets (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:853:12)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:739:10)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/pubSubnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devpubSubnet1RouteTableAssociation6BEE9813",
+            "trace": [
+              "new Subnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1021:5)",
+              "new PublicSubnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1153:5)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:882:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:864:28)",
+              "Vpc.createSubnets (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:853:12)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:739:10)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/pubSubnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devpubSubnet1DefaultRoute13521015",
+            "trace": [
+              "PublicSubnet.addDefaultInternetRoute (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1031:19)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:758:22",
+              "Array.forEach (<anonymous>)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:757:46)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/pubSubnet1/EIP": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devpubSubnet1EIPCB57C51B",
+            "trace": [
+              "PublicSubnet.addNatGateway (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1161:21)",
+              "NatGatewayProvider.configureNat (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:108:27)",
+              "Vpc.createNatGateways (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:834:14)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:764:14)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/pubSubnet1/NATGateway": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devpubSubnet1NATGatewayCCB4B444",
+            "trace": [
+              "PublicSubnet.addNatGateway (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1159:17)",
+              "NatGatewayProvider.configureNat (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:108:27)",
+              "Vpc.createNatGateways (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:834:14)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:764:14)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/pubSubnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devpubSubnet2Subnet55FAF4BD",
+            "trace": [
+              "new Subnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:997:20)",
+              "new PublicSubnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1153:5)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:882:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:864:28)",
+              "Vpc.createSubnets (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:853:12)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:739:10)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/pubSubnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devpubSubnet2RouteTable274B2BE8",
+            "trace": [
+              "new Subnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1015:19)",
+              "new PublicSubnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1153:5)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:882:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:864:28)",
+              "Vpc.createSubnets (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:853:12)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:739:10)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/pubSubnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devpubSubnet2RouteTableAssociation70325DA0",
+            "trace": [
+              "new Subnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1021:5)",
+              "new PublicSubnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1153:5)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:882:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:864:28)",
+              "Vpc.createSubnets (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:853:12)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:739:10)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/pubSubnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devpubSubnet2DefaultRouteC4152275",
+            "trace": [
+              "PublicSubnet.addDefaultInternetRoute (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1031:19)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:758:22",
+              "Array.forEach (<anonymous>)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:757:46)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/priSubnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devpriSubnet1Subnet9CC589BF",
+            "trace": [
+              "new Subnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:997:20)",
+              "new PrivateSubnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1185:5)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:887:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:864:28)",
+              "Vpc.createSubnets (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:853:12)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:739:10)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/priSubnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devpriSubnet1RouteTable391A94DC",
+            "trace": [
+              "new Subnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1015:19)",
+              "new PrivateSubnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1185:5)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:887:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:864:28)",
+              "Vpc.createSubnets (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:853:12)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:739:10)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/priSubnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devpriSubnet1RouteTableAssociation27A61CFB",
+            "trace": [
+              "new Subnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1021:5)",
+              "new PrivateSubnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1185:5)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:887:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:864:28)",
+              "Vpc.createSubnets (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:853:12)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:739:10)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/priSubnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devpriSubnet1DefaultRouteCF2CA0EA",
+            "trace": [
+              "PrivateSubnet.addRoute (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1063:19)",
+              "NatGatewayProvider.configureSubnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:125:12)",
+              "NatGatewayProvider.configureNat (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:118:12)",
+              "Vpc.createNatGateways (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:834:14)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:764:14)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/priSubnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devpriSubnet2SubnetBFACF191",
+            "trace": [
+              "new Subnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:997:20)",
+              "new PrivateSubnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1185:5)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:887:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:864:28)",
+              "Vpc.createSubnets (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:853:12)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:739:10)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/priSubnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devpriSubnet2RouteTable0B7CEBB0",
+            "trace": [
+              "new Subnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1015:19)",
+              "new PrivateSubnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1185:5)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:887:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:864:28)",
+              "Vpc.createSubnets (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:853:12)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:739:10)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/priSubnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devpriSubnet2RouteTableAssociation834B1023",
+            "trace": [
+              "new Subnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1021:5)",
+              "new PrivateSubnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1185:5)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:887:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:864:28)",
+              "Vpc.createSubnets (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:853:12)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:739:10)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/priSubnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devpriSubnet2DefaultRoute180E5576",
+            "trace": [
+              "PrivateSubnet.addRoute (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1063:19)",
+              "NatGatewayProvider.configureSubnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:125:12)",
+              "NatGatewayProvider.configureNat (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:118:12)",
+              "Vpc.createNatGateways (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:834:14)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:764:14)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/rdsSubnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devrdsSubnet1SubnetE2F26C27",
+            "trace": [
+              "new Subnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:997:20)",
+              "new PrivateSubnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1185:5)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:892:34",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:864:28)",
+              "Vpc.createSubnets (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:853:12)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:739:10)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/rdsSubnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devrdsSubnet1RouteTable3E35ABBE",
+            "trace": [
+              "new Subnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1015:19)",
+              "new PrivateSubnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1185:5)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:892:34",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:864:28)",
+              "Vpc.createSubnets (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:853:12)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:739:10)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/rdsSubnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devrdsSubnet1RouteTableAssociationBBA29A63",
+            "trace": [
+              "new Subnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1021:5)",
+              "new PrivateSubnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1185:5)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:892:34",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:864:28)",
+              "Vpc.createSubnets (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:853:12)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:739:10)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/rdsSubnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devrdsSubnet2SubnetEDB25B2D",
+            "trace": [
+              "new Subnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:997:20)",
+              "new PrivateSubnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1185:5)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:892:34",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:864:28)",
+              "Vpc.createSubnets (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:853:12)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:739:10)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/rdsSubnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devrdsSubnet2RouteTable6BC40890",
+            "trace": [
+              "new Subnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1015:19)",
+              "new PrivateSubnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1185:5)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:892:34",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:864:28)",
+              "Vpc.createSubnets (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:853:12)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:739:10)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/rdsSubnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devrdsSubnet2RouteTableAssociationD7108917",
+            "trace": [
+              "new Subnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1021:5)",
+              "new PrivateSubnet (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1185:5)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:892:34",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:864:28)",
+              "Vpc.createSubnets (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:853:12)",
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:739:10)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/IGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devIGW0646BCDD",
+            "trace": [
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:746:19)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/dev/VPCGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devVPCGW615EA99A",
+            "trace": [
+              "new Vpc (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:752:19)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/EC2-instanace-role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EC2instanacerole0444F253",
+            "trace": [
+              "new Role (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-iam/lib/role.ts:199:18)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:34:18)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/infra-secruity-sg/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "infrasecruitysg80EFC07B",
+            "trace": [
+              "new SecurityGroup (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/security-group.ts:289:26)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:41:27)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/network-bastion/InstanceProfile": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "networkbastionInstanceProfile7AF895AD",
+            "trace": [
+              "new Instance (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/instance.ts:160:24)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:67:22)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/network-bastion/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "networkbastion28AA47DE",
+            "trace": [
+              "new Instance (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/instance.ts:195:21)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:67:22)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/SsmParameterValue:--aws--service--ami-amazon-linux-latest--amzn2-ami-hvm-x86_64-gp2:C96584B6-F00A-464E-AD19-53AFF4B05118.Parameter": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SsmParameterValueawsserviceamiamazonlinuxlatestamzn2amihvmx8664gp2C96584B6F00A464EAD1953AFF4B05118Parameter",
+            "trace": [
+              "Function.fromStringParameterAttributes (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ssm/lib/parameter.ts:182:9)",
+              "Function.valueForTypedStringParameter (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ssm/lib/parameter.ts:233:17)",
+              "AmazonLinuxImage.getImage (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/machine-image.ts:71:37)",
+              "new Instance (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/aws-ec2/lib/instance.ts:165:44)",
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:67:22)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/network-bastion-output": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "networkbastionoutput",
+            "trace": [
+              "new WebThreeTierStack (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/lib/web-three-tier-stack.ts:87:5)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/bin/web-three-tier.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Module.m._compile (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "main (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1063:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)",
+              "Module.load (internal/modules/cjs/loader.js:928:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:769:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:22:24)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/core/lib/private/synthesis.ts:166:5",
+              "visit (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/core/lib/private/synthesis.ts:231:5)",
+              "visit (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/core/lib/private/synthesis.ts:227:5)",
+              "injectMetadataResources (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/core/lib/private/synthesis.ts:157:3)",
+              "Object.synthesize (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/core/lib/stage.ts:94:23)",
+              "process.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/core/lib/app.ts:64:45)",
+              "Object.onceWrapper (events.js:422:26)",
+              "process.emit (events.js:315:20)",
+              "process.EventEmitter.emit (domain.js:467:12)",
+              "process.emit (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/source-map-support/source-map-support.js:495:21)"
+            ]
+          }
+        ],
+        "/WebThreeTierStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:31:27)",
+              "/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/core/lib/private/synthesis.ts:166:5",
+              "visit (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/core/lib/private/synthesis.ts:231:5)",
+              "visit (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/core/lib/private/synthesis.ts:227:5)",
+              "injectMetadataResources (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/core/lib/private/synthesis.ts:157:3)",
+              "Object.synthesize (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/core/lib/stage.ts:94:23)",
+              "process.<anonymous> (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/@aws-cdk/core/lib/app.ts:64:45)",
+              "Object.onceWrapper (events.js:422:26)",
+              "process.emit (events.js:315:20)",
+              "process.EventEmitter.emit (domain.js:467:12)",
+              "process.emit (/Users/im/Documents/Company/4.고객사/코웨이/aws infra code/web-three-tier/node_modules/source-map-support/source-map-support.js:495:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "WebThreeTierStack"
+    }
+  }
+}
