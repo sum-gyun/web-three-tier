@@ -8,7 +8,7 @@
 
 ### TO-BE
 
-![initial](https://github.com/sum-gyun/web-three-tier/blob/main/image/to-be.png?raw=true)
+![initial](https://github.com/sum-gyun/web-three-tier/blob/main/image/to-be3.png?raw=true)
 
 This example demonstrates how to use the [AWS CDK](https://aws.amazon.com/cdk) to deploy a VPC with subnets, security groups and EC2 instances.  We will be building the following.
 
