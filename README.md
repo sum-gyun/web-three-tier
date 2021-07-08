@@ -1,10 +1,12 @@
 # AWS Cloud Development Kit(CDK) Web-3-tier to Deploy AWS Resource
 
-## AS-IS Architecture
+## Architecture
+
+### AS-IS
 
 ![initial](https://github.com/sum-gyun/web-three-tier/blob/main/image/as-is.png?raw=true)
 
-## To-be Architecture
+### TO-BE
 
 ![initial](https://github.com/sum-gyun/web-three-tier/blob/main/image/to-be.png?raw=true)
 
