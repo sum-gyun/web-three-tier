@@ -1,5 +1,13 @@
 # AWS Cloud Development Kit(CDK) Web-3-tier Example  to Deploy EC2 and VPC Resource
 
+## AS-IS Architecture
+
+![initial](https://github.com/sum-gyun/web-three-tier/blob/main/image/as-is.png?raw=true)
+
+## To-be Architecture
+
+![initial](https://github.com/sum-gyun/web-three-tier/blob/main/image/to-be.png?raw=true)
+
 This example demonstrates how to use the [AWS CDK](https://aws.amazon.com/cdk) to deploy a VPC with subnets, security groups and EC2 instances.  We will be building the following.
 
 ## Prerequisties
