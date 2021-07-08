@@ -1,4 +1,4 @@
-# AWS Cloud Development Kit(CDK) Web-3-tier Example  to Deploy EC2 and VPC Resource
+# AWS Cloud Development Kit(CDK) Web-3-tier Example  to Deploy AWS Resource
 
 ## AS-IS Architecture
 
